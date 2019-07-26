@@ -7,6 +7,18 @@
   resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.9.15.tgz#bea7affa515a53bda590e4d89621be016f7111ff"
   integrity sha512-bhm4T+tZ/OcrpehW1q1tuElGvxT7WT6s+1Aqz7Yg7UZDA9xyZkQDNb/BY9f4GjJ8t82EedwJxYJQwaGQfTngfg==
 
+"@uifabric/fluent-theme@^7.0.4":
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/@uifabric/fluent-theme/-/fluent-theme-7.0.4.tgz#a32beb75254f92b0aa919afa9147b9c4d960dd85"
+  integrity sha512-XKoKgJG/eaXdE39wk0iPDZqd8UxAfp/0BFVoyAJC5uLOLEcLfutdloSKRN/3HZT6mnJwRNOu+CkARvZH1uOfVQ==
+  dependencies:
+    "@uifabric/merge-styles" "^7.2.0"
+    "@uifabric/set-version" "^7.0.1"
+    "@uifabric/styling" "^7.2.1"
+    "@uifabric/variants" "^7.0.3"
+    office-ui-fabric-react "^7.11.0"
+    tslib "^1.7.1"
+
 "@uifabric/foundation@^7.0.3":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@uifabric/foundation/-/foundation-7.0.3.tgz#cd2718c384b4d35be8b828fba1001242578327d3"
@@ -60,6 +72,15 @@
     "@uifabric/merge-styles" "^7.2.0"
     "@uifabric/set-version" "^7.0.1"
     prop-types "^15.5.10"
+    tslib "^1.7.1"
+
+"@uifabric/variants@^7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@uifabric/variants/-/variants-7.0.3.tgz#4824475d9de50f76c3a9bfe54cf134047c48a28d"
+  integrity sha512-qBLMI3dS8WR2dwm9YzMzMJTXB77lM+7TkJpwUlpl6wpGqHmJILydFQFLpQR4NJjCas2A4UU4ktBEE6x4d241uA==
+  dependencies:
+    "@uifabric/set-version" "^7.0.1"
+    office-ui-fabric-react "^7.11.0"
     tslib "^1.7.1"
 
 abbrev@1:
@@ -776,7 +797,7 @@ object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
 
-office-ui-fabric-react@^7.16.0:
+office-ui-fabric-react@^7.11.0, office-ui-fabric-react@^7.16.0:
   version "7.16.0"
   resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-7.16.0.tgz#dcf2b3326c07c73296ce6abb6096840f1f5cd0bd"
   integrity sha512-5Col/PbwSanBYgI9LCGnJQ9QHJLpn+SD352Iby+RH2KMTP+nLnJoXXOyg7tC9LZivjrExSJIiTohSYUo9OKy1A==
