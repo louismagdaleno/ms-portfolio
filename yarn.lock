@@ -2,6 +2,66 @@
 # yarn lockfile v1
 
 
+"@microsoft/load-themed-styles@^1.7.13":
+  version "1.9.15"
+  resolved "https://registry.yarnpkg.com/@microsoft/load-themed-styles/-/load-themed-styles-1.9.15.tgz#bea7affa515a53bda590e4d89621be016f7111ff"
+  integrity sha512-bhm4T+tZ/OcrpehW1q1tuElGvxT7WT6s+1Aqz7Yg7UZDA9xyZkQDNb/BY9f4GjJ8t82EedwJxYJQwaGQfTngfg==
+
+"@uifabric/foundation@^7.0.3":
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/@uifabric/foundation/-/foundation-7.0.3.tgz#cd2718c384b4d35be8b828fba1001242578327d3"
+  integrity sha512-kfGuMgBkdOi6gkGC5UToHAHGvX/G0lq4KrPFg8EyOPBdjTPJWP4hYic7OKY7E+HIG3YPFFDgcj0IzSs2fSg9sA==
+  dependencies:
+    "@uifabric/set-version" "^7.0.1"
+    "@uifabric/styling" "^7.2.1"
+    "@uifabric/utilities" "^7.0.7"
+    tslib "^1.7.1"
+
+"@uifabric/icons@^7.1.1":
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/@uifabric/icons/-/icons-7.1.1.tgz#1f455b6338237fc18af0f5f80657877c5ab009de"
+  integrity sha512-xdCInIM9aF6emgHtM7W1yVz6cVkH1EWgT22S4mBvHBFSqLLSVn7EHKQ0FUT41zTgMoY/68neFoOvjkSjIm2h0Q==
+  dependencies:
+    "@uifabric/set-version" "^7.0.1"
+    "@uifabric/styling" "^7.2.1"
+    tslib "^1.7.1"
+
+"@uifabric/merge-styles@^7.2.0":
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/@uifabric/merge-styles/-/merge-styles-7.2.0.tgz#1ad604368066dc801f584de6c23c072680ec97dd"
+  integrity sha512-EA2aNl7jn3nUxwFZSausAr1MU8/C1pjLwyuLIQ4t0u86QW+MJuagXZY2X//oLPzvnACDrA5Z3SOcVbi+uzfTXA==
+  dependencies:
+    "@uifabric/set-version" "^7.0.1"
+    tslib "^1.7.1"
+
+"@uifabric/set-version@^7.0.1":
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/@uifabric/set-version/-/set-version-7.0.1.tgz#9ae5a04af0e98c788053fede0ce3b3612e5cb142"
+  integrity sha512-j9i6VnfvJtkJrfooUtdKJieXMrbggurxqV4EnlfhyBjJlTn3bEVYaVV4TsA+uLjpAfmhkuJLFnsY+MZB8C1khw==
+  dependencies:
+    tslib "^1.7.1"
+
+"@uifabric/styling@^7.2.1", "@uifabric/styling@^7.3.1":
+  version "7.3.1"
+  resolved "https://registry.yarnpkg.com/@uifabric/styling/-/styling-7.3.1.tgz#f188b96dd27232e0c172a65f34683c269b67a838"
+  integrity sha512-vjeB3WsqiR/pcTbxkhUNX66H/BYlwblc+D4weUwKH55spSAxAb4ih0HiMAsSEPVns5rzdIqPzZWjNZtA0wki1Q==
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.13"
+    "@uifabric/merge-styles" "^7.2.0"
+    "@uifabric/set-version" "^7.0.1"
+    "@uifabric/utilities" "^7.0.7"
+    tslib "^1.7.1"
+
+"@uifabric/utilities@^7.0.7":
+  version "7.0.7"
+  resolved "https://registry.yarnpkg.com/@uifabric/utilities/-/utilities-7.0.7.tgz#fab12012421d698c93cfeb4d51a521a3fbb3f444"
+  integrity sha512-oZJuCuSBGJXv8jXR1UCqAmTYW4yQ/I41K3J/rvXZTW17HOC2w34UiZIlk/p+PuLnrsEFrFfhN0uBnsAgeOL+fw==
+  dependencies:
+    "@uifabric/merge-styles" "^7.2.0"
+    "@uifabric/set-version" "^7.0.1"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -490,6 +550,11 @@ js-base64@^2.1.8:
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.5.1.tgz#1efa39ef2c5f7980bb1784ade4a8af2de3291121"
   integrity sha512-M7kLczedRMYX4L8Mdh4MzyAMM9O5osx+4FcOQuTvr3A9F2D9S5JXheN0ewNbrvK2UatkTRhL5ejGmGSjNMiZuw==
 
+"js-tokens@^3.0.0 || ^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
+  integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+
 jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
@@ -542,6 +607,13 @@ lodash@^4.0.0, lodash@^4.17.11, lodash@~4.17.10:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+
+loose-envify@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
 
 loud-rejection@^1.0.0:
   version "1.6.0"
@@ -699,10 +771,25 @@ oauth-sign@~0.9.0:
   resolved "https://registry.yarnpkg.com/oauth-sign/-/oauth-sign-0.9.0.tgz#47a7b016baa68b5fa0ecf3dee08a85c679ac6455"
   integrity sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
 
-object-assign@^4.0.1, object-assign@^4.1.0:
+object-assign@^4.0.1, object-assign@^4.1.0, object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+
+office-ui-fabric-react@^7.16.0:
+  version "7.16.0"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-7.16.0.tgz#dcf2b3326c07c73296ce6abb6096840f1f5cd0bd"
+  integrity sha512-5Col/PbwSanBYgI9LCGnJQ9QHJLpn+SD352Iby+RH2KMTP+nLnJoXXOyg7tC9LZivjrExSJIiTohSYUo9OKy1A==
+  dependencies:
+    "@microsoft/load-themed-styles" "^1.7.13"
+    "@uifabric/foundation" "^7.0.3"
+    "@uifabric/icons" "^7.1.1"
+    "@uifabric/merge-styles" "^7.2.0"
+    "@uifabric/set-version" "^7.0.1"
+    "@uifabric/styling" "^7.3.1"
+    "@uifabric/utilities" "^7.0.7"
+    prop-types "^15.5.10"
+    tslib "^1.7.1"
 
 once@^1.3.0:
   version "1.4.0"
@@ -796,6 +883,15 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
+prop-types@^15.5.10:
+  version "15.7.2"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
+  integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.8.1"
+
 pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
@@ -820,6 +916,11 @@ qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+
+react-is@^16.8.1:
+  version "16.8.6"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
+  integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
 read-pkg-up@^1.0.1:
   version "1.0.1"
@@ -1109,6 +1210,11 @@ trim-newlines@^1.0.0:
   integrity sha512-m6s2OdQe5wgpFMC+pAJ+q9djG82O2jcHPOI6RNg1yy9rCYR+WD6Nbpl32fDpfC56nirdRy+opFa/Vk7HYhqaew==
   dependencies:
     glob "^7.1.2"
+
+tslib@^1.7.1:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
+  integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
 tunnel-agent@^0.6.0:
   version "0.6.0"
