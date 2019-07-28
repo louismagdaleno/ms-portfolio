@@ -7,10 +7,10 @@ import { Stack, Text } from 'office-ui-fabric-react';
  */
 export class Home extends React.Component<IHomeState, IHomeProps> {
     constructor(props : IHomeProps){
-        super(props),
+        super(props)
         this.state = {
-
-        };
+            name : 'Louis'
+        }
     };
 
     public render(){
