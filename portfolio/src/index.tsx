@@ -12,7 +12,9 @@ mergeStyles({
     ':global(body), :global(html), :global(#root)': {
       margin: 0,
       padding: 0,
-      height: '100vh'
+      height: '100vh',
+      boxSizing: 'border-box',
+      fontFamily: "Segoe UI"
     }
   }
 });
